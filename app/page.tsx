@@ -202,7 +202,7 @@ export default function LoveTankApp() {
   if (activeQuestions.length === 0) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-rose-50 to-white flex flex-col items-center justify-center p-6 font-sans overflow-hidden relative">
+    <div className="min-h-screen bg-linear-to-br from-pink-50 via-rose-50 to-white flex flex-col items-center justify-center p-6 font-sans overflow-hidden relative">
       {isCompleted && windowSize.width > 0 && (
         <Confetti 
           width={windowSize.width} 
@@ -241,7 +241,7 @@ export default function LoveTankApp() {
         </motion.div>
 
         {/* Love Tank SVG with improved animation */}
-        <div className="relative w-48 h-48 mb-12 drop-shadow-xl flex-shrink-0">
+        <div className="relative w-48 h-48 mb-12 drop-shadow-xl shrink-0">
           {showSparkles && (
             <>
               {[...Array(5)].map((_, i) => (
@@ -352,7 +352,7 @@ export default function LoveTankApp() {
                       whileTap={{ scale: 0.98 }}
                       className={`w-full py-4 px-6 rounded-2xl font-semibold transition-all shadow-sm text-center ${
                         isCorrect 
-                          ? 'bg-gradient-to-r from-rose-400 to-pink-400 text-white hover:from-rose-500 hover:to-pink-500 shadow-md hover:shadow-lg' 
+                          ? 'bg-linear-to-r from-rose-400 to-pink-400 text-white hover:from-rose-500 hover:to-pink-500 shadow-md hover:shadow-lg' 
                           : 'bg-white text-rose-700 border-2 border-rose-100 hover:border-rose-300 hover:bg-rose-50'
                       } active:scale-95`}
                     >
@@ -371,11 +371,11 @@ export default function LoveTankApp() {
               className="w-full flex flex-col items-center"
             >
               <motion.div 
-                className="bg-white p-4 pb-10 shadow-2xl rounded-sm rotate-2 max-w-[300px] w-full border border-gray-100 mb-8"
+                className="bg-white p-4 pb-10 shadow-2xl rounded-sm rotate-2 max-w-75 w-full border border-gray-100 mb-8"
                 whileHover={{ rotate: 0, scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="bg-gradient-to-br from-rose-100 to-pink-100 aspect-square w-full rounded-sm overflow-hidden relative">
+                <div className="bg-linear-to-br from-rose-100 to-pink-100 aspect-square w-full rounded-sm overflow-hidden relative">
                   <img 
                     src="/salma.jpg" 
                     alt="Salma" 
@@ -394,7 +394,7 @@ export default function LoveTankApp() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={startNewRefill} 
-                className="py-3 px-8 bg-gradient-to-r from-rose-500 to-pink-500 text-white rounded-full font-bold shadow-lg hover:shadow-xl transition-all"
+                className="py-3 px-8 bg-linear-to-r from-rose-500 to-pink-500 text-white rounded-full font-bold shadow-lg hover:shadow-xl transition-all"
               >
                 Mau Refill Lagi? 🔋
               </motion.button>
