@@ -377,7 +377,7 @@ export default function LoveTankApp() {
               >
                 <div className="bg-linear-to-br from-rose-100 to-pink-100 aspect-square w-full rounded-sm overflow-hidden relative">
                   <img 
-                    src="/salma.jpg" 
+                    src="/salma.JPG" 
                     alt="Salma" 
                     className="w-full h-full object-cover" 
                     onError={(e: any) => { 
