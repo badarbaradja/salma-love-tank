@@ -12,7 +12,7 @@ const MASSIVE_QUESTION_BANK = [
   { text: "Siapa mahasiswa Kesmas dan Ambassador yang paling peduli sama lingkungan?", options: ["Salma", "Orang lewat"], correct: "Salma" },
   { text: "Duta lingkungan mana yang cantiknya natural dan peduli banget sama bumi?", options: ["Salma pastinya", "Rahasia"], correct: "Salma pastinya" },
   { text: "Siapa anak Kesmas yang selalu bikin Badar bangga luar biasa?", options: ["Salma, hehe", "Gatau ah"], correct: "Salma, hehe" },
-  { text: "Siapa yang ngasih surprise ulang tahun paling the best di tanggal 13 Februari kemarin?", options: ["Rahasia", "Salma dan Keluarga"], correct: "Salma dan Keluarga" },
+  { text: "Siapa yang ngasih surprise ulang tahun paling the best di tanggal 10 Februari kemarin?", options: ["Rahasia", "Salma dan Keluarga"], correct: "Salma dan Keluarga" },
   { text: "Keluarga siapa yang super baik dan bikin ulang tahun ke-21 Badar jadi spesial banget?", options: ["Keluarganya Salma", "Lupa"], correct: "Keluarganya Salma" },
   { text: "Siapa mastermind di balik surprise kado terindah di bulan Februari?", options: ["Salma cintaku", "Siapa ya"], correct: "Salma cintaku" },
   { text: "Siapa yang nemenin belajar bareng dan punya kenangan seru waktu bimbel KUI 2023 dulu?", options: ["Lupa", "Salma, hehe"], correct: "Salma, hehe" },
